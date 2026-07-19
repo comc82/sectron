@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /css/
+Disallow: /images/
+
+Sitemap: https://www.sectron.com.pe/sitemap.xml

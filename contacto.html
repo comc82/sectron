@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sectron — Contacto</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo"><img src="images/mroc47to-sectron_logo.png" alt="Sectron"></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="proyectos.html">Proyectos</a></li>
+      </ul>
+      <a href="contacto.html" class="btn btn-primary">Contáctenos</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Contáctenos</h1>
+      <p>Cuéntanos sobre tu proyecto y te responderemos con una propuesta personalizada.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="form-card" data-anim="slide-left">
+          <h2>Envíanos un mensaje</h2>
+          <p>Completa el formulario y nos pondremos en contacto contigo a la brevedad.</p>
+          <form id="contact-form" novalidate>
+            <div class="field-row">
+              <div class="field">
+                <label for="nombre">Nombre completo</label>
+                <input type="text" id="nombre" name="name" placeholder="Tu nombre" maxlength="100" required>
+              </div>
+              <div class="field">
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" placeholder="correo@empresa.com" maxlength="120" required>
+              </div>
+            </div>
+            <div class="field-row">
+              <div class="field">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" name="phone" placeholder="+51 999 999 999" maxlength="25">
+              </div>
+              <div class="field">
+                <label for="empresa">Empresa</label>
+                <input type="text" id="empresa" name="company" placeholder="Nombre de tu empresa" maxlength="120">
+              </div>
+            </div>
+            <div class="field">
+              <label for="servicio">Servicio de interés</label>
+              <select id="servicio" name="service">
+                <option value="">Selecciona un servicio</option>
+                <option value="cctv">Cámaras de seguridad (CCTV)</option>
+                <option value="alarma">Sistemas de alarma</option>
+                <option value="rastreo">Rastreo vehicular (GPS)</option>
+                <option value="monitoreo">Monitoreo remoto 24/7</option>
+                <option value="producto">Consulta sobre producto</option>
+                <option value="otro">Otro</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="message" placeholder="Cuéntanos sobre tu proyecto, necesidades o preguntas..." maxlength="1500" required></textarea>
+            </div>
+            <div class="field" aria-hidden="true" style="position:absolute;left:-9999px;opacity:0;pointer-events:none;">
+              <label for="_honey">No completar</label>
+              <input id="_honey" type="text" name="_honey" tabindex="-1" autocomplete="off">
+            </div>
+            <p id="form-status" role="status" aria-live="polite" style="margin:0 0 16px; font-size:14px; min-height:22px;"></p>
+            <button type="submit" class="btn btn-primary btn-lg" style="width:100%;">Enviar mensaje</button>
+          </form>
+        </div>
+
+        <div class="contact-info">
+          <div class="info-block" data-anim="slide-right" style="--i:0">
+            <h3>Información de contacto</h3>
+            <div class="info-item">
+              <div class="info-icon">
+                <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div class="info-text">
+                <h4>Ubicación</h4>
+                <p>Jr. Las Cascadas 148 - Int P1-10, Urb La Ensenada, La Molina</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">
+                <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div class="info-text">
+                <h4>Correo</h4>
+                <p>info@sectron.com.pe</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">
+                <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+              </div>
+              <div class="info-text">
+                <h4>Teléfono</h4>
+                <p>997270773 / 957336317</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="info-block" data-anim="slide-right" style="--i:1">
+            <h3>Horario de atención</h3>
+            <div class="info-item">
+              <div class="info-icon">
+                <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <div class="info-text">
+                <p>Lunes a Viernes: 9:00 AM — 6:00 PM</p>
+                <p>Sábados: 9:00 AM — 1:00 PM</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="map-placeholder" style="overflow:hidden; padding:0;">
+            <iframe
+              title="Mapa de ubicación Sectron"
+              src="https://www.google.com/maps?q=Las%20Cascadas%20148,%20La%20Molina%2015024,%20Peru&z=16&output=embed"
+              width="100%"
+              height="100%"
+              style="border:0;"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="images/mroc47to-sectron_logo.png" alt="Sectron" style="height:32px; filter:brightness(0) invert(1);">
+          <p>Soluciones de seguridad para empresas y hogares en Perú.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Servicios</h4>
+          <ul>
+            <li><a href="servicios.html">Seguridad en empresas</a></li>
+            <li><a href="servicios.html">Monitoreo remoto</a></li>
+            <li><a href="servicios.html">Rastreo de vehículos</a></li>
+            <li><a href="servicios.html">Seguridad domiciliaria</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Productos</h4>
+          <ul>
+            <li><a href="productos.html">Cámaras de seguridad</a></li>
+            <li><a href="productos.html">Sistemas de alarma</a></li>
+            <li><a href="productos.html">Rastreadores GPS</a></li>
+            <li><a href="productos.html">Ver todos</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contacto</h4>
+          <p>Jr. Las Cascadas 148 - Int P1-10, Urb La Ensenada, La Molina</p>
+          <p>997270773 / 957336317</p>
+          <p>info@sectron.com.pe</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Sectron. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    (function() {
+      var observer = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('in-view');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.12, rootMargin: '0px 0px -30px 0px' });
+      document.querySelectorAll('[data-anim], .hero, .footer').forEach(function(el) { observer.observe(el); });
+    })();
+  </script>
+
+  <script>
+    (function() {
+      var form = document.getElementById('contact-form');
+      var btn = form.querySelector('button[type="submit"]');
+      var status = document.getElementById('form-status');
+      var honeypot = form.querySelector('input[name="_honey"]');
+      var lastSubmitAt = 0;
+      var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      var phonePattern = /^[0-9+()\-\.\s]{7,25}$/;
+
+      function setStatus(message, isError) {
+        status.textContent = message;
+        status.style.color = isError ? '#b91c1c' : '#166534';
+      }
+
+      function cleanText(value, maxLength) {
+        return String(value || '')
+          .replace(/<[^>]*>/g, '')
+          .replace(/[\r\n\t]+/g, ' ')
+          .replace(/\s{2,}/g, ' ')
+          .trim()
+          .slice(0, maxLength || 255);
+      }
+
+      form.addEventListener('submit', async function(e) {
+        e.preventDefault();
+
+        if (honeypot.value.trim() !== '') {
+          setStatus('Solicitud no válida.', true);
+          return;
+        }
+
+        var now = Date.now();
+        if (now - lastSubmitAt < 15000) {
+          setStatus('Por favor espera unos segundos antes de enviar otro mensaje.', true);
+          return;
+        }
+
+        var payload = {
+          name: cleanText(form.elements.name.value, 100),
+          email: cleanText(form.elements.email.value, 120).toLowerCase(),
+          phone: cleanText(form.elements.phone.value, 25),
+          company: cleanText(form.elements.company.value, 120),
+          service: cleanText(form.elements.service.value, 80),
+          message: cleanText(form.elements.message.value, 1500)
+        };
+
+        if (!payload.name || !payload.email || !payload.message) {
+          setStatus('Completa nombre, correo y mensaje.', true);
+          return;
+        }
+
+        if (!emailPattern.test(payload.email)) {
+          setStatus('Introduce un correo electrónico válido.', true);
+          return;
+        }
+
+        if (payload.phone && !phonePattern.test(payload.phone)) {
+          setStatus('Introduce un teléfono válido.', true);
+          return;
+        }
+
+        btn.disabled = true;
+        btn.textContent = 'Enviando...';
+        setStatus('Enviando tu mensaje...', false);
+
+        try {
+          var response = await fetch('https://formsubmit.co/ajax/info@sectron.com.pe', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+              'Accept': 'application/json'
+            },
+            body: JSON.stringify({
+              name: payload.name,
+              email: payload.email,
+              phone: payload.phone,
+              company: payload.company,
+              service: payload.service,
+              message: payload.message,
+              _subject: 'Nuevo mensaje de contacto - Sectron',
+              _replyto: payload.email,
+              _captcha: 'false'
+            })
+          });
+
+          if (!response.ok) {
+            throw new Error('No se pudo enviar');
+          }
+
+          var result = await response.json();
+          if (result && result.success) {
+            setStatus('Mensaje enviado correctamente. Te responderemos pronto.', false);
+            form.reset();
+            lastSubmitAt = Date.now();
+          } else {
+            throw new Error('Respuesta inválida');
+          }
+        } catch (error) {
+          setStatus('No se pudo enviar el mensaje en este momento. Inténtalo nuevamente.', true);
+        } finally {
+          btn.disabled = false;
+          btn.textContent = 'Enviar mensaje';
+        }
+      });
+    })();
+  </script>
+</body>
+</html>
