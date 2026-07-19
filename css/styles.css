@@ -139,6 +139,7 @@ body {
   background-size: cover;
   background-position: center;
 }
+.hero-slide-bg.bg-right { background-position: right center; }
 .hero-slide::after {
   content: '';
   position: absolute;
