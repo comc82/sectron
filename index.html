@@ -20,7 +20,10 @@
         <li><a href="productos.html">Productos</a></li>
         <li><a href="proyectos.html">Proyectos</a></li>
       </ul>
-      <a href="contacto.html" class="btn btn-primary">Contáctenos</a>
+      <a href="contacto.html" class="btn btn-primary nav-cta">Contáctenos</a>
+      <button class="nav-toggle" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
     </div>
   </nav>
 
@@ -324,6 +327,24 @@
       }, { threshold: 0.12, rootMargin: '0px 0px -30px 0px' });
       document.querySelectorAll('[data-anim], .footer').forEach(function(el) { observer.observe(el); });
     })();
+  </script>
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="servicios.html">Servicios</a></li>
+      <li><a href="productos.html">Productos</a></li>
+      <li><a href="proyectos.html">Proyectos</a></li>
+      <li><a href="contacto.html" class="mobile-cta">Contáctenos</a></li>
+    </ul>
+  </div>
+  <script>
+  (function(){
+    var t=document.querySelector('.nav-toggle'),m=document.getElementById('mobileMenu');
+    if(t&&m){
+      t.addEventListener('click',function(){this.classList.toggle('open');m.classList.toggle('open')});
+      m.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){t.classList.remove('open');m.classList.remove('open')})});
+    }
+  })();
   </script>
 </body>
 </html>
