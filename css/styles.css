@@ -1090,5 +1090,5 @@ body {
   .service-num { font-size: 40px; }
   .product-body { grid-template-columns: 1fr; }
   .product-img { width: 100%; height: 240px; }
-  .whatsapp-float { bottom: 16px; right: 16px; width: 50px; height: 50px; }
+  .whatsapp-float { bottom: 32px; right: 32px; width: 50px; height: 50px; }
 }
