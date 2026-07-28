@@ -1,0 +1,38 @@
+# Sectron - Soluciones de Seguridad Electrónica
+
+> Empresa peruana de seguridad electrónica para persona, hogar y empresa. Brindamos protección integral con tecnología de vanguardia y monitoreo 24/7.
+
+## Servicios principales
+- Cámaras de seguridad (CCTV) con reconocimiento facial, control perimetral y detección térmica
+- Alarmas de seguridad cableadas e inalámbricas con control por app móvil
+- Control de accesos por biometría, tarjeta, clave y detección de placas vehiculares
+- Cercos eléctricos y fotoeléctricos perimetrales
+- Intercomunicadores y videoporteros para edificios y residencias
+- Radio enlaces de larga distancia para voz, data y video
+- Redes inalámbricas WiFi 5, 6 y 7 con topología mesh
+- Cableado estructurado Cat 6, 6A, 7 (1G a 10 Gbps)
+
+## Productos
+- Cámaras IP fijas Hikvision (2MP/4MP) con Acusense y Dual Light
+- Cámaras PTZ TandemVu con zoom óptico 25x
+- Cámaras panorámicas 180° con doble lente
+- Control de acceso WiFi con huella, rostro y tarjeta
+- Sistemas de alarmas híbridos AX PRO
+
+## Marcas
+Hikvision, Alhua, EZVIZ, IMOU, Ubiquiti, Huawei, TP-Link, ZKTeco, MikroTik, Panduit
+
+## Ubicación
+Jr. Las Cascadas 148 - Int P1-10, Urb La Ensenada, La Molina, Lima, Perú
+
+## Contacto
+- Teléfono: +51 997 270 773
+- Correo: info@sectron.com.pe
+- WhatsApp: +51 997 270 773
+
+## Páginas
+- [Inicio](https://www.sectron.com.pe/)
+- [Servicios](https://www.sectron.com.pe/servicios.html)
+- [Productos](https://www.sectron.com.pe/productos.html)
+- [Proyectos](https://www.sectron.com.pe/proyectos.html)
+- [Contacto](https://www.sectron.com.pe/contacto.html)

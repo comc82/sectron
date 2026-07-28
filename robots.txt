@@ -4,3 +4,4 @@ Disallow: /css/
 Disallow: /images/
 
 Sitemap: https://www.sectron.com.pe/sitemap.xml
+LLMs: https://www.sectron.com.pe/llms.txt
